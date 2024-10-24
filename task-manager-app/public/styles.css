@@ -1,0 +1,58 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#taskInput {
+    width: calc(100% - 110px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#taskList {
+    margin-top: 20px;
+}
+
+.task {
+    padding: 10px;
+    background-color: #e9ecef;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}

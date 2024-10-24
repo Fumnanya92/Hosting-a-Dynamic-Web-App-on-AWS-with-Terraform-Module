@@ -1,0 +1,30 @@
+{
+  "name": "task-manager-app",
+  "version": "1.0.0",
+  "description": "ask Management App with Node.js, Express, and DynamoDB as the database. The app will allow users to create, update, view, and delete tasks, along with a basic API for interacting with the database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fumnanya92/Hosting-a-Dynamic-Web-App-on-AWS-with-Terraform-Module.git"
+  },
+  "keywords": [
+    "T\btas\b\b\b[]"
+  ],
+  "author": "fumma\b\bnanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fumnanya92/Hosting-a-Dynamic-Web-App-on-AWS-with-Terraform-Module/issues"
+  },
+  "homepage": "https://github.com/Fumnanya92/Hosting-a-Dynamic-Web-App-on-AWS-with-Terraform-Module#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.677.0",
+    "@aws-sdk/lib-dynamodb": "^3.677.0",
+    "aws-sdk": "^2.1691.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
