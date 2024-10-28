@@ -14,6 +14,6 @@ variable "repository_name" {
   type = string
 }
 
-resource "aws_ecr_repository" "this" {
-  name = var.repository_name
-}
+#resource "aws_ecr_repository" "webapp_repo" {
+#  name = var.repository_name
+#}
