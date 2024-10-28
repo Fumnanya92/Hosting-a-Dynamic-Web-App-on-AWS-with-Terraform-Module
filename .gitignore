@@ -1,3 +1,9 @@
-*.terraform
+
+.terraform/
 *.env
-*tfkey.pem
+tfkey.pem
+terraform.tfvars
+
+*.tfstate
+*.tfstate.*
+*.backup
